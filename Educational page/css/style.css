@@ -1,0 +1,603 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: fit-content;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+
+.firstSection {
+    background-image: url(../images/girl.png);
+    width: 100vw;
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.firstSection .button {
+    background-color: #ff6551;
+    display: flex;
+    width: fit-content;
+    padding: 20px 30px;
+    border-radius: 7px;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.rightArrow {
+    width: 16px;
+    height: 14px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+    /* position: fixed; */
+    /* box-shadow: 0px 20px 25px 10px rgba(255, 0, 0, 0.5); */
+    padding-inline: 300px;
+}
+
+.navbarlayout {
+    display: flex;
+    gap: 600px;
+    align-items: center;
+}
+
+.mainnavbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.loginAndJoinUs {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.brandName {
+    margin-right: 100px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.mainnavbar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+    font-weight: 600;
+}
+
+.Login {
+    color: #ff6551;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.secondSection {
+    padding-inline: 300px;
+    padding-top: 100px;
+}
+
+.secondSection .title {
+    color: #ff6551;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subTitle {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 30px;
+    color: gray;
+    font-weight: 600;
+}
+
+.childrens {
+    width: 760px;
+    height: 815px;
+    margin-top: 100px;
+}
+
+.FirstSectionInfo {
+    margin-top: 250px;
+    padding-inline: 300px;
+}
+
+.K25 {
+    font-size: 90px;
+    font-weight: 900;
+    margin-top: 70px;
+}
+
+.goal {
+    color: gray;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.FirstSectionInfo .button {
+    margin-top: 70px;
+    padding-inline: 60px;
+    padding-block: 25px;
+}
+
+.imgContainer {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 45px;
+    justify-content: space-between;
+}
+
+.trainingCourseInfo {
+    margin-top: 100px;
+}
+
+.trainingCourseInfo p:first-child {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.trainingCourseInfo p:nth-child(2) {
+    font-size: 30px;
+    color: gray;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.circle {
+    padding: 40px;
+    background-color: #ECECEC;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.circle p {
+    font-size: 45px !important;
+    color: #E74040;
+}
+
+.trainingCourseItem {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.circleImfo,
+.circle {
+    margin-top: 40px !important;
+}
+
+.trainingCourseItem:nth-child(2),
+.trainingCourseItem:nth-child(3) {
+    margin-top: 80px;
+}
+
+.thirdSection {
+    padding-block: 150px;
+    padding-inline: 300px;
+
+}
+
+.line {
+    width: 107px;
+    height: 10px;
+    background-color: #E74040;
+}
+
+.fam {
+    width: 800px;
+    height: 600px;
+}
+
+.videocontaner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoInfo {
+    margin-top: 130px;
+}
+
+.videoInfo p:nth-child(2) {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: #202841;
+    margin-top: 50px;
+}
+
+.videoInfo p:nth-child(3) {
+    margin-top: 20px;
+    font-size: 30px;
+    color: gray;
+    font-weight: 600;
+
+}
+
+.learn {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.learn p {
+    color: #ff6551;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.learn img {
+    width: 20px;
+    height: 26px;
+}
+
+.forthsection {
+    padding-inline: 300px;
+    padding-block: 100px;
+}
+
+.forthsection .Practice,
+.sectionfive .Practice,
+.sectionsix .Practice,
+.sectionseven .Practice {
+    font-size: x-large;
+    color: #E74040;
+    font-weight: bold;
+}
+
+.forthsection .Courses,
+.sectionfive .Courses,
+.sectionsix .Courses,
+.sectionseven .Courses {
+    color: #202841;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.forthsection .pro,
+.sectionfive .pro,
+.sectionsix .pro,
+.sectionseven .pro {
+    margin-top: 20px;
+    font-size: 30px;
+    color: gray;
+    font-weight: 600;
+}
+
+.forthsection .block {
+    width: 100%;
+    height: 550px;
+    margin-top: 170px;
+}
+
+.forthsection .teacher {
+    color: #FF6551;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.forthsection .pop {
+    color: #202841;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.forthsection .prot {
+    margin-top: 30px;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.forthsection .cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.forthsection .cardIteam {
+    width: calc(100%/3);
+}
+
+.forthsection .starinfo {
+    display: flex;
+    background-color: #26335D;
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.forthsection .starContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.forthsection .cardinfo {
+    padding-inline: 25px;
+}
+
+.forthsection .salesContainer {
+    display: flex;
+    color: #737373;
+    font-weight: 600;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forthsection .learnMore {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    color: #FF6551;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1.5px solid #FF6551;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.forthsection .pricingContainer {
+    display: flex;
+    gap: 5px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #BDBDBD;
+}
+
+.forthsection .pricingContainer p:nth-child(2) {
+    color: #2435A1;
+}
+
+.sectionfive {
+    background-color: #26335D;
+    padding-inline: 300px;
+    padding-block: 250px;
+}
+
+.sectionfive .Courses,
+.sectionfive .pro {
+    color: white;
+}
+
+.sectionfive .carditeam {
+    background-color: white;
+    padding-block: 50px;
+    padding-inline: 40px;
+    width: 33%;
+    font-size: 30px;
+}
+
+.sectionfive .cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+    margin-top: 170px;
+}
+
+.sectionfive .free {
+    color: #252B42;
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sectionfive .org {
+    color: #737373;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sectionfive .money {
+    color: #FF6551;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.sectionfive .month {
+    color: #8EC2F2;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sectionfive .slate {
+    margin-top: 40px;
+    color: #737373;
+    font-weight: 100;
+}
+
+.sectionfive .try {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 20px 140px;
+    background-color: #FF6551;
+    width: 100%;
+    justify-content: center;
+}
+
+.sectionfive .green {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionfive .un {
+    color: #252B42;
+    font-weight: 600;
+}
+
+.check {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionfive .carditeam {
+    font-size: 25px !important;
+}
+
+.sectionsix {
+    padding-inline: 300px;
+    padding-block: 250px;
+}
+
+.sectionsix .reviewContainer {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionsix .designer {
+    display: flex;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.sectionsix .reviewItem>img {
+    margin-bottom: 15px;
+}
+
+.sectionsix .reviewItem {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 100;
+    color: gray;
+}
+
+.sectionsix .designerinfo {
+    color: red;
+}
+
+.sectionsix .designerinfo p:nth-child(2) {
+    color: black;
+}
+
+.sectionseven {
+    padding-inline: 300px;
+    padding-block: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sectionseven .inputGroup {
+    display: flex;
+    margin-top: 80px;
+}
+
+.sectionseven input[type="email"] {
+    padding-block: 25px;
+    padding-inline: 20px;
+    height: 58px;
+    width: 700px;
+    font-size: 20px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #E6E6E6;
+}
+
+.sectionseven .sub {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #FF6551;
+    padding: 18px 22px;
+    justify-content: center;
+}
+
+.footerParant {
+    padding-inline: 300px;
+    padding-block: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.footerBlock {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footerBlock,
+.copyRight {
+    font-size: 25px;
+    color: gray;
+    font-weight: 600;
+}
+
+.footerBlock p:nth-child(1) {
+    font-weight: bold;
+    color: #252B42;
+}
+
+.footerInfo {
+    display: flex;
+    gap: 10px;
+}
+
+.copyRight {
+    display: flex;
+    flex-direction: row;
+    padding-inline: 300px;
+    background-color: #f3f3f3;
+    padding-block:25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy{
+    display: flex;
+    gap: 20px;
+}
